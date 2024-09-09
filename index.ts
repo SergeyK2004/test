@@ -3,11 +3,9 @@ interface IUser {
   getAge(): number
 }
 
-
-
 class User implements IUser{
   protected userName: string
-  
+
   protected userYearOfBirth: number
 
    constructor(name: string, age: number) {
